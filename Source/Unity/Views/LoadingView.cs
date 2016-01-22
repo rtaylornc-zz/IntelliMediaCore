@@ -34,6 +34,7 @@ using UnityEngine.Events;
 
 namespace IntelliMedia
 {
+    // TODO merge this class into ProgressIndicatorView
 	public class LoadingView : UnityGuiView
 	{
 		public Text message;
