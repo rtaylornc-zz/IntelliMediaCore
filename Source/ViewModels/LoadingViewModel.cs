@@ -33,7 +33,8 @@ using IntelliMedia;
 
 namespace IntelliMedia
 {
-	public class LoadingViewModel : ViewModel
+    // TODO merge this class into ProgressIndicatorViewModel
+    public class LoadingViewModel : ViewModel
 	{
 		private StageManager navigator;
 		private List<ProgressInfo> indicators = new List<ProgressInfo>();
